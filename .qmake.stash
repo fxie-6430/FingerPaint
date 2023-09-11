@@ -1,0 +1,21 @@
+QMAKE_CXX.QT_COMPILER_STDCXX = 201402L
+QMAKE_CXX.QMAKE_GCC_MAJOR_VERSION = 9
+QMAKE_CXX.QMAKE_GCC_MINOR_VERSION = 3
+QMAKE_CXX.QMAKE_GCC_PATCH_VERSION = 0
+QMAKE_CXX.COMPILER_MACROS = \
+    QT_COMPILER_STDCXX \
+    QMAKE_GCC_MAJOR_VERSION \
+    QMAKE_GCC_MINOR_VERSION \
+    QMAKE_GCC_PATCH_VERSION
+QMAKE_CXX.INCDIRS = \
+    /home/xiefu/work/vt-tab10/toolchain/sysroots/corei7-64-vtlinux-linux/usr/include/c++/9.3.0 \
+    /home/xiefu/work/vt-tab10/toolchain/sysroots/corei7-64-vtlinux-linux/usr/include/c++/9.3.0/x86_64-vtlinux-linux \
+    /home/xiefu/work/vt-tab10/toolchain/sysroots/corei7-64-vtlinux-linux/usr/include/c++/9.3.0/backward \
+    /home/xiefu/work/vt-tab10/toolchain/sysroots/x86_64-vtlinuxsdk-linux/usr/lib/x86_64-vtlinux-linux/gcc/x86_64-vtlinux-linux/9.3.0/include \
+    /home/xiefu/work/vt-tab10/toolchain/sysroots/x86_64-vtlinuxsdk-linux/usr/lib/x86_64-vtlinux-linux/gcc/x86_64-vtlinux-linux/9.3.0/include-fixed \
+    /home/xiefu/work/vt-tab10/toolchain/sysroots/corei7-64-vtlinux-linux/usr/include
+QMAKE_CXX.LIBDIRS = \
+    /home/xiefu/work/vt-tab10/toolchain/sysroots/x86_64-vtlinuxsdk-linux/usr/lib/x86_64-vtlinux-linux/gcc/x86_64-vtlinux-linux/9.3.0 \
+    /home/xiefu/work/vt-tab10/toolchain/sysroots/corei7-64-vtlinux-linux/lib \
+    /home/xiefu/work/vt-tab10/toolchain/sysroots/corei7-64-vtlinux-linux/usr/lib/x86_64-vtlinux-linux/9.3.0 \
+    /home/xiefu/work/vt-tab10/toolchain/sysroots/corei7-64-vtlinux-linux/usr/lib
